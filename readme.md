@@ -4,7 +4,7 @@ helping ShortPoint engineers in their day to day tasks
 
 ### Features
 
-* display a notification whenever you mark a todo item as checked on basecamp.
+* display a notification to remind you to update change log whenever you mark a todo item as checked on basecamp.
 
 
 ### How to install
