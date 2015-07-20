@@ -16,7 +16,7 @@ chrome.extension.sendMessage({}, function(response) {
 
 function hookCheckboxes() {
   $( 'body' ).on( 'change', 'input[type="checkbox"]', function() {
-    if( $( this ).is( ':checked' ) ) {
+    if( $( this ).is( ':checked' ) && $( this ).closest( '.subscribers' ).length === 0 ) {
       chrome.extension.sendMessage({ type: 'changelog' });
     }
   })
